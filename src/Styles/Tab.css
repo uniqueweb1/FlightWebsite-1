@@ -1,0 +1,97 @@
+.Tab {
+    font-family: sans-serif;
+    background-color: rgba(211, 211, 211, 0.31); 
+  }
+.top__right-panel {
+    width: 20rem;
+    float: right; }
+  
+  .top__right-panel a {
+    margin-right: 20px; }
+  
+  .clearfix:before,
+  .clearfix:after {
+    content: " ";
+    display: table; }
+  
+  .clearfix:after {
+    clear: both; }
+  
+.tab-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: absolute; 
+    z-index: -1;
+}
+  
+  section {
+    clear: both;
+    padding-top: 10px;
+    display: none; 
+  }
+  
+  .tab {
+    box-shadow: 0px 2px 2px #D3D3D3;
+    font-weight: 900;
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 1em;
+    color: #0a0a0a;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: #f0f0f0; }
+  
+  .tab-container .tab-content fieldset {
+    -webkit-animation: fadeInScale 0.7s ease-in-out;
+    -moz-animation: fadeInScale 0.7s ease-in-out;
+    animation: fadeInScale 0.7s ease-in-out; }
+  
+  .tab-container [id^="tab"]:checked + label {
+    background: #FFF;
+    box-shadow: inset 0 3px #7ec56f; }
+    #Update {
+        background-color: darkgreen;
+        color:  #fff;
+        padding: 7px;
+        margin: 9px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none; }
+        .AddApp #Update{
+          font-size: 0.75rem;
+          cursor: pointer;
+          margin-left: 40px; 
+          letter-spacing: 1px;
+        }
+        #Update:active{
+            transform: scale(90%); 
+         } 
+  
+  /*----Content Animation-----*/
+  @keyframes fadeInScale {
+    0% {
+      transform: scale(0.9);
+      opacity: 0; }
+    100% {
+      transform: scale(1);
+      opacity: 1; } }
+  
+  .no_wrap {
+    text-align: center;
+    color: #0ce; }
+  
+  .active-content {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #FFF;
+    border-bottom: 2px solid #222; }
+  
+  .tab-container .active-tab {
+    background: #FFF;
+    box-shadow: inset 0 3px #55c578; }
+  

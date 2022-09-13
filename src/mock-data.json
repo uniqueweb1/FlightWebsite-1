@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Maintenance Option",
+        "start": "26-3-2016",
+        "end": "25-3-2016",
+        "aircraftREG": "SP-IJKL",
+        "aircraftTAH": "104.45",
+        "aircraftTAC": "33",
+        "camlimitTAH": "-",
+        "camlimitTAC": "-",
+        "camlimitdate": "-",
+        "estimatedTAH": "104.45",
+        "estimatedTAC": "33",
+        "files": "",
+        "notes": ""
+    },
+    {
+        "id": 2,
+        "name": "Aircraft on Ground",
+        "start": "26-3-2016",
+        "end": "25-3-2016",
+        "aircraftREG": "SP-IJKL",
+        "aircraftTAH": "104.45",
+        "aircraftTAC": "33",
+        "camlimitTAH": "-",
+        "camlimitTAC": "-",
+        "camlimitdate": "-",
+        "estimatedTAH": "104.45",
+        "estimatedTAC": "33",
+        "files": "",
+        "notes": ""
+    },
+    {
+        "id": 3,
+        "name": "Eclair",
+        "start": "26-3-2016",
+        "end": "25-3-2016",
+        "aircraftREG": "SP-IJKL",
+        "aircraftTAH": "104.45",
+        "aircraftTAC": "33",
+        "camlimitTAH": "-",
+        "camlimitTAC": "-",
+        "camlimitdate": "-",
+        "estimatedTAH": "104.45",
+        "estimatedTAC": "33",
+        "files": "",
+        "notes": ""
+    }
+]
